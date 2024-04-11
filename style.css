@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* NAVBAR */
+nav {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+}
+
+.logo {
+    margin-left: 11%;
+    color: #1e30f3;
+    font-size: 30px;
+    font-family:"Roboto";
+    font-style: italic;
+    font-weight: 700;
+
+} 
+
+
+.navbar {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    padding-right: 60px;
+    color: rgb(112, 111, 111);
+    font-weight: 900;
+}
+
+.navbar > li {
+    cursor: pointer;
+}
+
+.navbar> li:hover {
+    color: black;
+
+}
+
+/* HEADER */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    /* background-color: aquamarine; */
+    display: flex;
+}
+
+.container > div {
+    width: 50%;
+    height: 100vh;
+}
+
+
+
+.headerRight {
+    /* background-color: rgb(255, 187, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgBackground {
+    width: 70%;
+    height: 70vh;
+    background-color: #1e30f3;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    position: relative;
+}
+.imgBackground > img {
+    width: 80%;
+    height: 80vh;
+    margin-top: -10vh;
+    margin-left: 10%;
+}
+
+.point1 {
+    font-size: 70px;
+    height: 100px;
+    width: 30px;
+    color: white;
+    position: absolute;
+    right: 5px;
+    top: 40px;
+
+
+}
+.point1 > div {
+    margin-top: -65px;
+}
+.point2 {
+    font-size: 70px;
+    height: 100px;
+    width: 30px;
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+
+
+}
+.point2 > div {
+    margin-top: -65px;
+}
+.point3 {
+    font-size: 70px;
+    height: 100px;
+    width: 30px;
+    color:  #1e30f3;
+    position: absolute;
+    right: -40px;
+    top: 70px;
+
+
+}
+.point3 > div {
+    margin-top: -65px;
+}
+.point4 {
+    font-size: 70px;
+    height: 100px;
+    width: 30px;
+    color: #1e30f3;
+    position: absolute;
+    right: -60px;
+    top: 70px;
+
+
+}
+.point4 > div {
+    margin-top: -65px;
+}
+.point5 {
+    font-size: 70px;
+    height: 100px;
+    width: 30px;
+    color: white;
+    position: absolute;
+    left: 10px;
+    bottom: 160px;
+
+
+}
+.point5 > div {
+    margin-bottom: -65px;
+}
+.point6 {
+    font-size: 70px;
+    height: 100px;
+    width: 30px;
+    color: white;
+    position: absolute;
+    left: 30px;
+    bottom: 160px;
+
+
+}
+.point6 > div {
+    margin-bottom: -65px;
+}
+.point7 {
+    font-size: 70px;
+    height: 100px;
+    width: 30px;
+    color:  #1e30f3;
+    position: absolute;
+    left: -30px;
+    bottom: 130px;
+
+
+}
+.point7 > div {
+    margin-bottom: -65px;
+}
+.point8 {
+    font-size: 70px;
+    height: 100px;
+    width: 30px;
+    color: #1e30f3;
+    position: absolute;
+    left: -50px;
+    bottom: 130px;
+
+
+}
+.point8> div {
+    margin-bottom: -65px;
+}
+
+
+.headerLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerLeft > div {
+    width: 70%;
+    height: 80vh;
+    /* background-color: aqua; */
+}
+.headerLeft > div > h1 {
+    color: #6c757d;
+    font-size: 30px;
+    font-weight: 100;
+    
+    margin-top: 20px;
+    margin-left: 10%;
+}
+.firstText {
+    background: #1e30f3;
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    width: 60%;
+    height: 25px;
+    border-radius:5px ;
+    text-align: center;
+    margin-left: 10%;
+    padding-top: 1px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.largeText {
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 70px;
+   
+
+}
+.largeTextDiv {
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.buttons {
+    margin-left: 10%;
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    
+    
+}
+.buttons :first-child {
+    background-color: #1e30f3;
+    color: white;
+    width: 170px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.buttons :first-child:hover {
+    background-color: #0c1469;
+
+}
+.buttons :last-child {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    width: 170px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.buttons :last-child:hover {
+    background-color: rgb(42, 42, 42);
+    color: white;
+}
+
+/* Section */
+
+.sec {
+    background-color: rgb(233, 232, 230);
+    width: 100%;
+    height: 500px;
+}
+
+.aboutme {
+    background: -webkit-linear-gradient(315deg, #11197a 0%, #ec509e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 400;
+    font-family: tahoma;
+    padding-top: 70px;
+    
+
+}
+
+.sec > h5 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(51, 51, 51);
+    margin-top: 30px;
+}
+.sec > p {
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px auto;
+    
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+svg {
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip:content-box;
+    -webkit-text-fill-color: transparent;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 500px;
+    width: 100%;
+    height: 100px;
+}
+
+footer > div > ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+
+}
